@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section */
+.navLinks li{
+    list-style: none;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.navBar{
+    background-color: #323A45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 61px;
+}
+
+.menuBtn{
+    display: none;
+}
+
+.closeBtn{
+    display: none;
+}
+
+.navLinks{
+    display: flex;
+    gap: 78px;
+}
+
+/* main section */
+main{
+    min-height: 100vh;
+    background-image: url(./image/envista-blog.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* footer section */
+footer{
+    background-color: #323A45;
+    padding: 10px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+/* mobile version */
+@media (max-width: 800px){
+
+    /* nav section */
+    .navBar{
+        background-color: #323A45;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .logo{
+        width: 112px;
+        height: 46px;
+    }
+
+    .menuBtn{
+        display: flex;
+        width: 28px;
+        height: 24px;
+    }
+
+    .navLinks{
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: -900px;
+        transition: all 1s ease;
+    }
+
+    .navLinks li a{
+        color: black;
+    }
+
+    .mobileMenu{
+        margin-top: 0px;
+    }
+
+    .closeBtn{
+        display: flex;
+        position: absolute;
+        width: 30px;
+        top: 25px;
+        right: 25px;
+    }
+
+    /* footer section */
+    footer{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopnow</title>
+    <link rel="stylesheet" href="./nav-footer.css">
+    <link rel="stylesheet" href="addProduct.css">
+</head>
+
+<body>
+    <nav class="navBar">
+        <img src="./image/ShopNow logo.png" alt="logo of shopnow" class="logo">
+        <ul class="navLinks">
+            <li><img src="./image/close.png" alt="closeBtn" class="closeBtn"></li>
+            <li><a href="#">Add product</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Update</a></li>
+            <li><a href="#">Remove</a></li>
+        </ul>
+        <img src="./image/menu-btn.png" alt="menu-button" class="menuBtn">
+    </nav>
+
+    <main>
+        <div id="div">
+            <h2>Add product</h2>
+            <form id="add">
+                <label>
+                    <span>Reference number:</span>
+                    <input type="text" id="reference" class="case">
+                </label>
+                <label>
+                    <span>Name:</span>
+                    <input type="text" id="name" class="case">
+                </label>
+                <label>
+                    <span>Category:</span>
+                    <input type="text" id="category" class="case">
+                </label>
+                <label>
+                    <span>Quantity:</span>
+                    <input type="number" id="quantity" class="case">
+                </label>
+                <button class="button">Add product</button>
+            </form>
+            <!-- <p id="erreur"></p> -->
+        </div>
+        <!-- <div id="overlay"></div> -->
+    </main>
+
+    <footer>
+        <p>© 1996-2022, ShopNow.com, Inc. or its affiliates</p>
+    </footer>
+    <script src="./nav.js"></script>
+    <script src="./addProduct.js"></script>
+</body>
+
+</html>
