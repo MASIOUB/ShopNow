@@ -39,7 +39,7 @@
 /* main section */
 main{
     min-height: 100vh;
-    background-image: url(./image/envista-blog.png);
+    background-image: url(./../image/envista-blog.png);
     background-position: center;
     background-size: cover;
 }
