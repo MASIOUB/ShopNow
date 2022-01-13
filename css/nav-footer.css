@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +23,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 61px;
+    padding: 0px 61px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
 }
 
 .menuBtn{
@@ -34,6 +39,7 @@
 .navLinks{
     display: flex;
     gap: 78px;
+    font-size: 23px;
 }
 
 /* main section */
@@ -42,6 +48,8 @@ main{
     background-image: url(./../image/envista-blog.png);
     background-position: center;
     background-size: cover;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* footer section */
@@ -49,6 +57,8 @@ footer{
     background-color: #323A45;
     padding: 10px;
     text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
     font-size: 21px;
     color: white;
 }
